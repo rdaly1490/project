@@ -1,24 +1,21 @@
 .nav {
 	background-color: #000;
 	text-align: center;
-/*	padding-top: 3em;*/
 }
 
 .nav .nav-elements {
 	height:2.5em;
 	font-size: 1.25em;
+	line-height: 2.5em;
+	vertical-align: middle;
 }
-
-/*.border {
-	background-color: #000;
-	height:2em;
-}*/
 
 a {
 	color: white;
 }
 
-.mini-logo {
+.mini-logo img{
+	line-height: 300px;
 	vertical-align: middle;
 }
 
@@ -33,17 +30,9 @@ a {
 	margin-right: auto;
 }
 
-.benefits .well h1 {
-/*	text-align: center;*/
-}
-
 .reviews {
 	background-color: #FBFAF6;
 	padding-top: 20px;
-}
-
-.reviews .well {
-/*	border-color: white;*/
 }
 
 .gloves {
@@ -55,6 +44,56 @@ a {
 }
 
 .benefits {
-	padding-top: 1.5em;
+	padding-top: 3em;
 	border-top: 1.5em solid black;
+}
+
+.benefits .well {
+	text-align: center;
+}
+
+.circles {
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #fff;
+	border-radius: 50%;
+	width:80px;
+	height:80px;
+	border: 15px solid blue;
+	font-weight: bold;
+	font-size: 3em;
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+.star {
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../images/star.png);
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+	width:80px;
+	height:80px;
+	text-align: center;
+	border: 5px solid black;
+}
+
+.reviews h5 {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.reviews h4 {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.reviews p {
+	text-align: center;
+	color:gray;
+}
+
+.benefits img {
+	margin-bottom: 80px;
 }
