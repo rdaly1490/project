@@ -14,6 +14,13 @@ a {
 	color: white;
 }
 
+a:hover {
+	background-color:gray;
+	text-decoration: none;
+	font-weight: bold;
+	color:white;
+}
+
 .mini-logo img{
 	line-height: 300px;
 	vertical-align: middle;
@@ -96,4 +103,16 @@ a {
 
 .benefits img {
 	margin-bottom: 80px;
+}
+
+.reviews .well {
+	background-color: #ededed;
+}
+
+.star:before {
+  content: "\25BC";
+  color: #ededed;
+  font-size: 3em;
+  position: relative;
+  top: -75%;
 }
