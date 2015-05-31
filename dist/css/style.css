@@ -1,0 +1,54 @@
+.navbar {
+	background-color: #000;
+	text-align: center;
+}
+
+.nav div .nav-elements {
+	height:2.5em;
+	font-size: 1.25em;
+}
+
+a {
+	color: white;
+}
+
+.main div {
+/*	background-color: #333333;*/
+}
+
+.gym img{
+	width:100%;
+	height:100%;
+	background: url(../images/emptyGym.jpeg);
+	background-position: center;
+	background-size: cover;
+/*	padding-top: 5em;
+	padding-bottom: 5em;
+	padding-left: 50%;*/
+}
+
+.logo {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.benefits .well h1 {
+/*	text-align: center;*/
+}
+
+.reviews {
+	background-color: #FBFAF6;
+	padding-top: 20px;
+}
+
+.reviews .well {
+/*	border-color: white;*/
+}
+
+.gloves {
+	text-align: center;
+}
+
+.benefits {
+	padding-top: 20px;
+}
