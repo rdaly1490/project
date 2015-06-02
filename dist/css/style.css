@@ -1,13 +1,18 @@
-.nav {
-	background-color: #000;
+.navbar {
+	background: rgba(0, 0, 0, 0.5);
 	text-align: center;
+/*	opacity:0.5;*/
+	position: fixed;
+	width:100%;
+	z-index: 1000;
 }
 
-.nav .nav-elements {
+.navbar .nav-elements {
 	height:2.5em;
-	font-size: 1.25em;
-	line-height: 2.5em;
+	font-size: 1.5em;
+	line-height: 2.0em;
 	vertical-align: middle;
+	opacity:1;
 }
 
 a {
@@ -21,18 +26,29 @@ a:hover {
 	color:white;
 }
 
+.mini-logo {
+	padding-top: 250px
+}
+
 .mini-logo img{
-	line-height: 300px;
-	vertical-align: middle;
+	min-height:250px;
+/*	line-height: 300px;
+	vertical-align: middle;*/
 }
 
 .main {
-	background: url(../images/emptyGym.jpeg);
+	background: url(../images/dbgloves.jpg);
+	height:500px;
 	background-position: center;
 	background-size: cover;
+	border-top: 2.3em solid black;
 }
 
-.logo {
+#logo-box {
+padding-top: 375px;
+}
+
+#logo-box img{
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -50,9 +66,15 @@ a:hover {
 	color:gray;
 }
 
+.gloves img {
+	min-height:300px;
+	min-width:300px;
+	margin-top: 3em;
+}
+
 .benefits {
 	padding-top: 3em;
-	border-top: 1.5em solid black;
+	border-top: 2.3em solid black;
 }
 
 .benefits .well {
@@ -76,7 +98,7 @@ a:hover {
 .star {
 	margin-left: auto;
 	margin-right: auto;
-	background: url(../images/star.png);
+	background: url(../images/star2.jpeg);
 	background-position: center;
 	background-size: cover;
 	border-radius: 50%;
