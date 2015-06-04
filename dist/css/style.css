@@ -1,7 +1,6 @@
 .navbar {
 	background: rgba(0, 0, 0, 0.5);
 	text-align: center;
-/*	opacity:0.5;*/
 	position: fixed;
 	width:100%;
 	z-index: 1000;
@@ -32,8 +31,6 @@ a:hover {
 
 .mini-logo img{
 	min-height:250px;
-/*	line-height: 300px;
-	vertical-align: middle;*/
 }
 
 .main {
@@ -42,6 +39,8 @@ a:hover {
 	background-position: center;
 	background-size: cover;
 	border-top: 2.3em solid black;
+	/*background-size: 100% 100%;
+	background-repeat: no-repeat;*/
 }
 
 #logo-box {
@@ -79,6 +78,8 @@ padding-top: 375px;
 
 .benefits .well {
 	text-align: center;
+	background-color: white;
+	border:none;
 }
 
 .circles {
@@ -138,3 +139,49 @@ padding-top: 375px;
   position: relative;
   top: -75%;
 }
+
+
+
+@media (min-width: 768px) {
+	.benefits p {
+		font-size: 1.25em;
+	}
+
+	.benefits div .well p {
+		font-size: 1.5em;
+	}
+
+	.reviews div .well {
+		font-size: 1.25em;
+	}
+
+	.reviews p {
+		font-size: 1.25em;
+	}
+
+	.star:before {
+		font-size: 4em;
+		top:-95%;
+	}
+
+	#logo-box {
+	padding-top: 525px;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.benefits .well {
+		min-height:400px;
+	}
+
+	.bottom {
+		min-height: 300px;
+	} 
+/*#logo-box {
+padding-top: 525px;
+}*/
+
+
+}
+
