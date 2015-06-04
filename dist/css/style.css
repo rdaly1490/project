@@ -8,7 +8,7 @@
 
 .navbar .nav-elements {
 	height:2.5em;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	line-height: 2.0em;
 	vertical-align: middle;
 	opacity:1;
@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-	background-color:gray;
+	/*background-color:gray;*/
 	text-decoration: none;
 	font-weight: bold;
 	color:white;
@@ -140,7 +140,9 @@ padding-top: 375px;
   top: -75%;
 }
 
-
+.nav-elements:hover {
+	background: rgba(0, 0, 0, 0.7);;
+}
 
 @media (min-width: 768px) {
 	.benefits p {
@@ -166,6 +168,10 @@ padding-top: 375px;
 
 	#logo-box {
 	padding-top: 525px;
+	}
+
+	.navbar .nav-elements {
+	font-size: 1.3em;
 	}
 }
 
