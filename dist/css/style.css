@@ -53,7 +53,8 @@ padding-top: 375px;
 }
 
 .reviews {
-	background-color: #FBFAF6;
+	background-color: #f6f3ea;
+	border: 2px solid #e7dfc6;
 	padding-top: 20px;
 }
 
@@ -114,9 +115,9 @@ padding-top: 375px;
 	margin-bottom: 3em;
 }
 
-.reviews h4 {
+.reviews h2 {
 	text-align: center;
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 }
 
 .reviews p {
@@ -142,6 +143,10 @@ padding-top: 375px;
 
 .nav-elements:hover {
 	background: rgba(0, 0, 0, 0.7);;
+}
+
+footer {
+	height:7em;
 }
 
 @media (min-width: 768px) {
@@ -182,8 +187,17 @@ padding-top: 375px;
 	}
 
 	.bottom {
-		min-height: 300px;
+		min-height: 250px;
 	} 
+
+	.well {
+		font-size: 0.65em;
+	}
+
+	.reviews div .well {
+		font-size: 1.1em;
+	}
+
 /*#logo-box {
 padding-top: 525px;
 }*/
