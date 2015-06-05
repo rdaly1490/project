@@ -14,11 +14,11 @@
 	opacity:1;
 }
 
-a {
+.nav-elements a {
 	color: white;
 }
 
-a:hover {
+.nav-elements a:hover {
 	/*background-color:gray;*/
 	text-decoration: none;
 	font-weight: bold;
@@ -145,6 +145,31 @@ padding-top: 375px;
 	background: rgba(0, 0, 0, 0.7);;
 }
 
+/*.reviews div .well {
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
+}*/
+
+footer a {
+	color:#d92727;
+	float: right;
+	line-height: 7em;
+	vertical-align: middle;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color:#d92727;
+	font-weight: bold;
+}
+
+footer p {
+	float: left;
+	line-height: 7em;
+	vertical-align: middle;
+}
+
 footer {
 	height:7em;
 }
@@ -197,11 +222,6 @@ footer {
 	.reviews div .well {
 		font-size: 1.1em;
 	}
-
-/*#logo-box {
-padding-top: 525px;
-}*/
-
 
 }
 
