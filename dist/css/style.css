@@ -54,7 +54,8 @@ padding-top: 375px;
 
 .reviews {
 	background-color: #f6f3ea;
-	border: 2px solid #e7dfc6;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
 	padding-top: 20px;
 }
 
@@ -95,6 +96,7 @@ padding-top: 375px;
 	font-size: 3em;
 	line-height: 50px;
 	vertical-align: middle;
+	color: #a82c2f;
 }
 
 .circles .well {
@@ -141,9 +143,9 @@ padding-top: 375px;
   content: "\25BC";
   text-shadow: 1px 1px 0px black, -1px 1px 0px black;
   color: #ededed;
-  font-size: 3em;
+  font-size: 2em;
   position: relative;
-  top: -75%;
+  top: -52%;
 }
 
 .nav-elements:hover {
@@ -186,6 +188,11 @@ footer p {
 
 footer {
 	height:7em;
+}
+
+.reviews .well {
+	border: 1px solid black;
+	margin-bottom: 18px;
 }
 
 @media (min-width: 768px) {
