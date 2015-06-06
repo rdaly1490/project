@@ -90,11 +90,15 @@ padding-top: 375px;
 	border-radius: 50%;
 	width:80px;
 	height:80px;
-	border: 15px solid blue;
+	border: 15px solid black;
 	font-weight: bold;
 	font-size: 3em;
 	line-height: 50px;
 	vertical-align: middle;
+}
+
+.circles .well {
+	color: red;
 }
 
 .star {
@@ -135,6 +139,7 @@ padding-top: 375px;
 
 .star:before {
   content: "\25BC";
+  text-shadow: 1px 1px 0px black, -1px 1px 0px black;
   color: #ededed;
   font-size: 3em;
   position: relative;
@@ -143,6 +148,15 @@ padding-top: 375px;
 
 .nav-elements:hover {
 	background: rgba(0, 0, 0, 0.7);;
+}
+
+.item img {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.active {
+	  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
 }
 
 /*.reviews div .well {
