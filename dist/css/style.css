@@ -19,7 +19,6 @@
 }
 
 .nav-elements a:hover {
-	/*background-color:gray;*/
 	text-decoration: none;
 	font-weight: bold;
 	color:white;
@@ -39,12 +38,10 @@
 	background-position: center;
 	background-size: cover;
 	border-top: 2.3em solid black;
-	/*background-size: 100% 100%;
-	background-repeat: no-repeat;*/
 }
 
 #logo-box {
-padding-top: 375px;
+padding-top: 525px;
 }
 
 #logo-box img{
@@ -61,16 +58,22 @@ padding-top: 375px;
 
 .gloves {
 	text-align: center;
+	margin-bottom: 20px;
 }
 
 .gloves p {
 	color:gray;
+	font-size: 11px;
 }
 
 .gloves img {
 	min-height:300px;
 	min-width:300px;
 	margin-top: 3em;
+}
+
+.gloves h1 {
+	margin-bottom: 30px;
 }
 
 .benefits {
@@ -82,6 +85,7 @@ padding-top: 375px;
 	text-align: center;
 	background-color: white;
 	border:none;
+	margin-bottom: 0px;
 }
 
 .circles {
@@ -121,7 +125,7 @@ padding-top: 375px;
 	margin-bottom: 3em;
 }
 
-.reviews h2 {
+.reviews h4 {
 	text-align: center;
 	margin-bottom: 2em;
 }
@@ -161,17 +165,12 @@ padding-top: 375px;
 	  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
 }
 
-/*.reviews div .well {
-	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.5);
-}*/
-
 footer a {
 	color:#d92727;
 	float: right;
-	line-height: 7em;
+	line-height: 8em;
 	vertical-align: middle;
+	font-size: 10px;
 }
 
 footer a:hover {
@@ -182,17 +181,51 @@ footer a:hover {
 
 footer p {
 	float: left;
-	line-height: 7em;
+	line-height: 8em;
 	vertical-align: middle;
+	font-size: 10px;
 }
 
 footer {
-	height:7em;
+	height:5em;
 }
 
 .reviews .well {
 	border: 1px solid black;
 	margin-bottom: 18px;
+}
+
+.reviews h4 span {
+	color:red;
+}
+
+.reviews h5 a{
+	color:#000;
+	font-size: 12px;
+	color:gray;
+}
+
+.reviews h5 a:hover{
+	text-decoration: none;
+	font-weight:bold;
+}
+
+@media (min-width: 600px) {
+	footer a {
+	font-size: 14px;
+	}
+
+	footer p {
+	font-size: 14px;
+	}
+
+	.reviews h4 {
+		font-size: 24px;
+	}
+
+	.gloves p {
+		font-size: 14px;
+	}
 }
 
 @media (min-width: 768px) {
@@ -213,8 +246,8 @@ footer {
 	}
 
 	.star:before {
-		font-size: 4em;
-		top:-95%;
+		font-size: 2.2em;
+		top:-53%;
 	}
 
 	#logo-box {
@@ -223,6 +256,22 @@ footer {
 
 	.navbar .nav-elements {
 	font-size: 1.3em;
+	}
+
+	footer a {
+	font-size: 18px;
+	}
+
+	footer p {
+	font-size: 18px;
+	}
+
+	.reviews h4 {
+		font-size: 30px;
+	}
+
+	.gloves p {
+		font-size: 18px;
 	}
 }
 
@@ -242,6 +291,15 @@ footer {
 
 	.reviews div .well {
 		font-size: 1.1em;
+	}
+
+	.well h3 {
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.benefits div .well p {
+	font-size: 1.5em;
 	}
 
 }
