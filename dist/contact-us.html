@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fitkora Contact Us</title>
+		<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+
+<!-- NavBar from homepage -->
+		<div class="container-fluid navbar">
+			<div class="col-xs-4 col-sm-2 col-sm-offset-3 col-md-2 col-md-offset-3 nav-elements"><a href="#">Home</a></div>
+			<div class="col-xs-4 col-sm-2 col-md-2 nav-elements"><a href="http://www.amazon.com/Gym-Gloves-Workout-Grips-Weightlifting/dp/B00R943I2M/ref=sr_1_1?ie=UTF8&qid=1433379005&sr=8-1&keywords=fitkora">Buy Now!</a></div>
+			<div class="col-xs-4 col-sm-2 col-md-2 nav-elements"><a href="contact-us.html">Contact Us</a></div>
+		</div>
+<!-- End Navbar, start Logo -->
+		<div class="container-fluid main">
+			<div class="col-xs-12 col-sm-12 col-md-12 logo">
+				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1" id="logo-box">
+					<img src="images/Fitkora(RGB).png" class="img-responsive" alt="Responsive image">
+				</div>
+			</div>
+		</div>
+<!-- End NavBar and logo -->
+
+<!--Physical Address Start -->
+		<div class="col-xs-12 col-sm-12 col-md-12" id="contact-page">
+			<div class="col-xs-6 col-sm-6 col-md-6" id="address">
+				<h2>Contact Us</h2>
+				<h3>Fitkora&trade;</h3>
+				<p>lorem ipsum drive</p>
+				<p>austin, tx 77777</p>
+				<p>tel: 777-7777</p>
+				<p>Email: fitkora@fitkora.com</p>
+			</div>
+		</div>
+<!-- Physical Address End -->
+
+<!--Begin Submission Form -->
+		<div class="col-xs-12 col-sm-12 col-md-12">
+			<form method="post" action="success.html" id="contact-form">
+				<section>
+					<div class="col-xs-5 col-sm-5 col-md-5" style="float:left;margin-right:20px;">
+						<label>Name</label><input type="text" id="name" />
+						<p id="invalid-name"></p>
+					</div>
+					<div class="col-xs-5 col-sm-5 col-md-5" style="float:left">
+						<label>Email</label><input type="text" id="email" />
+						<p id="invalid-email"></p>
+				</div>
+				<br style="clear:both;" />
+				</section>
+				<section>
+					<label>Message</label><textarea id="message"></textarea>
+					<p id="invalid-msg"></p>
+					<input type="hidden" name="cc_emails[]" value="rdaly1490@gmail.com" />
+					<input type="submit" value="Send Message" id="contact-btn"/>
+				 </section>
+			</form>
+		</div>
+<!-- End Submission Form -->
+
+<!-- Footer -->
+		<footer class="col-xs-12 col-sm-12 col-md-12">
+			<div class="col-xs-6 col-sm-6 col-md-6">
+				<p>FitKora&trade; &copy; 2015. All Rights Reserved.</p>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-6">
+				<a href="#">&bull; Privacy Policy</a>
+				<a href="#">Terms & Conditions &bull;</a>
+			</div>
+		</footer>
+
+	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="bower_components/validator-js/validator.min.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="scripts/main.js"></script>
+	</body>
+</html>

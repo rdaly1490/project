@@ -1,20 +1,60 @@
 // $(document).ready(function() {
 
-// 	$(".nav-elements").on("mouseenter", function(e) {
-// 		$(e.target).css("backgroundColor", "#rgba(0, 0, 0, 0.7)");
-// 	})
+$("#contact-form").on("submit", function(e) {
+	var $name = $("#name");
+	var $email = $("#email");
+	var $message = $("#message");
 
-// 	$(".nav-elements").on("mouseout", function(e) {
-// 		$(e.target).css("backgroundColor", "rgba(0, 0, 0, 0.5)");
-// 	})
+	joinedName = ($name.val().replace(/\s+/g, ''));
+	var names = validator.isAlpha(joinedName);
+	var namesNull = validator.isNull($name.val());
+	var emails = validator.isEmail($email.val());
+	var emailsNull = validator.isNull($email.val());
+	var messageArea = validator.isNull($message.val());
+	console.log("names", names);
+	console.log("namesNull", namesNull);
+	console.log("emails", emails);
+	console.log("emailsNull", emailsNull);
+	console.log("messageArea", messageArea);
 
-// 	$(".nav-elements a").on("mouseenter", function(e) {
-// 		$(e.target).css("backgroundColor", "#rgba(0, 0, 0, 0.7)");
-// 	})
+	if (names && emails && webContain && !txt) {
+		console.log("good");	
+	}
+	if (namesNull) {
+		e.preventDefault();
+		$("#invalid-name").html("Field cannot be left blank");
+	}	
+	else if (!names) {
+		e.preventDefault();
+		$("#invalid-name").html("Invalid Input: Name cannot contain numbers");
+	}
+	else {
+		e.preventDefault();
+		$("#invalid-name").html("");
+	}
+	if (emailsNull) {
+		e.preventDefault();
+		$("#invalid-email").html("Field cannot be left blank");
+	}
+	else if (!emails) {
+		e.preventDefault();
+		$("#invalid-email").html("Invalid Input: Email must contain @ symbol and be valid");
+	}
+	else {
+		e.preventDefault();
+		$("#invalid-email").html("");
+	}
+	if (messageArea) {
+		e.preventDefault();
+		$("#invalid-msg").html("Field cannot be left blank");
+	}
+	else {
+		e.preventDefault();
+		$("#invalid-msg").html("");
+	}	
 
-// 	$(".nav-elements a").on("mouseout", function(e) {
-// 		$(e.target).css("backgroundColor", "rgba(0, 0, 0, 0.5)");
-// 	})
+
+});
 
 
 
