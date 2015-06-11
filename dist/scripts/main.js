@@ -11,11 +11,11 @@ $("#contact-form").on("submit", function(e) {
 	var emails = validator.isEmail($email.val());
 	var emailsNull = validator.isNull($email.val());
 	var messageArea = validator.isNull($message.val());
-	console.log("names", names);
-	console.log("namesNull", namesNull);
-	console.log("emails", emails);
-	console.log("emailsNull", emailsNull);
-	console.log("messageArea", messageArea);
+	// console.log("names", names);
+	// console.log("namesNull", namesNull);
+	// console.log("emails", emails);
+	// console.log("emailsNull", emailsNull);
+	// console.log("messageArea", messageArea);
 
 	if (names && emails && webContain && !txt) {
 		console.log("good");	
@@ -26,7 +26,7 @@ $("#contact-form").on("submit", function(e) {
 	}	
 	else if (!names) {
 		e.preventDefault();
-		$("#invalid-name").html("Invalid Input: Name cannot contain numbers");
+		$("#invalid-name").html("Name must contain letters only");
 	}
 	else {
 		e.preventDefault();
@@ -38,7 +38,7 @@ $("#contact-form").on("submit", function(e) {
 	}
 	else if (!emails) {
 		e.preventDefault();
-		$("#invalid-email").html("Invalid Input: Email must contain @ symbol and be valid");
+		$("#invalid-email").html("Email must contain @ symbol and be valid");
 	}
 	else {
 		e.preventDefault();

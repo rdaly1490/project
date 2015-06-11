@@ -221,6 +221,8 @@ label {
 	border-radius: 5px;
 	margin-top: 20px;
 	float:right;
+	background-color: #f7e9b3;
+	border:none;
 }
 
 #contact-form p{
@@ -228,6 +230,22 @@ label {
 	font-weight: bold;
 	font-size: 12px;
 	margin-top: 5px;
+}
+
+#contact-btn:hover {
+	background-color: #88C470;
+    /* Firefox */
+    -moz-transition: all 0.5s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.5s ease-in;
+    /* Opera */
+    -o-transition: all 0.5s ease-in;
+    /* Standard */
+    transition: all 0.5s ease-in;
+}
+
+#msg-sent {
+	text-align: center;
 }
 
 .reviews .well {
