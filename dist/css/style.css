@@ -34,14 +34,14 @@
 
 .main {
 	background: url(../images/dbgloves.jpg);
-	height:500px;
+	height:400px;
 	background-position: center;
 	background-size: cover;
 	border-top: 2.3em solid black;
 }
 
 #logo-box {
-padding-top: 525px;
+padding-top: 425px;
 }
 
 #logo-box img{
@@ -191,7 +191,7 @@ footer {
 }
 
 #contact-page {
-	margin-top: 40px;
+	margin-top: 0px;
 	text-indent: left;
 }
 
@@ -309,7 +309,7 @@ label {
 	}
 
 	#logo-box {
-	padding-top: 525px;
+	padding-top: 425px;
 	}
 
 	.navbar .nav-elements {
