@@ -38,10 +38,11 @@
 	background-position: center;
 	background-size: cover;
 	border-top: 2.3em solid black;
+	border-bottom: 2.3em solid black;
 }
 
 #logo-box {
-padding-top: 425px;
+padding-top: 380px;
 }
 
 #logo-box img{
@@ -52,7 +53,7 @@ padding-top: 425px;
 .reviews {
 	background-color: #f6f3ea;
 	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+	/*border-bottom: 2px solid black;*/
 	padding-top: 20px;
 }
 
@@ -78,7 +79,7 @@ padding-top: 425px;
 
 .benefits {
 	padding-top: 3em;
-	border-top: 2.3em solid black;
+/*	border-top: 2.3em solid black;*/
 }
 
 .benefits .well {
@@ -188,11 +189,12 @@ footer p {
 
 footer {
 	height:5em;
+	border-top: 2px solid black;
 }
 
 #contact-page {
 	margin-top: 0px;
-	text-indent: left;
+	text-align: center;
 }
 
 label {
@@ -220,6 +222,7 @@ label {
 #contact-btn {
 	border-radius: 5px;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	float:right;
 	background-color: #f7e9b3;
 	border:none;
@@ -284,6 +287,23 @@ label {
 	.gloves p {
 		font-size: 14px;
 	}
+
+	#contact-btn {
+		font-size: 20px;
+		margin-right: 20px;
+	}
+
+	#address p {
+		font-size: 18px;
+	}
+
+	#address h2 {
+		font-size: 36px;
+	}
+
+	#address h3{
+		font-size: 26px;
+	}
 }
 
 @media (min-width: 768px) {
@@ -309,11 +329,11 @@ label {
 	}
 
 	#logo-box {
-	padding-top: 425px;
+	padding-top: 380px;
 	}
 
 	.navbar .nav-elements {
-	font-size: 1.3em;
+	font-size: 1.2em;
 	}
 
 	footer a {
@@ -358,6 +378,11 @@ label {
 
 	.benefits div .well p {
 	font-size: 1.5em;
+	}
+
+	#contact-btn {
+		margin-right: 100px;
+		width:200px;
 	}
 
 }
