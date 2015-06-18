@@ -1,3 +1,7 @@
+@-ms-viewport{
+  width: device-width;
+}
+
 .navbar {
 	background: rgba(0, 0, 0, 0.5);
 	text-align: center;
@@ -8,7 +12,7 @@
 
 .navbar .nav-elements {
 	height:2.5em;
-	font-size: 1.2em;
+	font-size: 0.9em;
 	line-height: 2.0em;
 	vertical-align: middle;
 	opacity:1;
@@ -150,7 +154,7 @@ padding-top: 380px;
   color: #ededed;
   font-size: 2em;
   position: relative;
-  top: -52%;
+  top: -50%;
 }
 
 .nav-elements:hover {
@@ -171,7 +175,7 @@ footer a {
 	float: right;
 	line-height: 8em;
 	vertical-align: middle;
-	font-size: 10px;
+	font-size: 6px;
 }
 
 footer a:hover {
@@ -184,7 +188,7 @@ footer p {
 	float: left;
 	line-height: 8em;
 	vertical-align: middle;
-	font-size: 10px;
+	font-size: 6px;
 }
 
 footer {
@@ -269,6 +273,38 @@ label {
 .reviews h5 a:hover{
 	text-decoration: none;
 	font-weight:bold;
+}
+
+@media (min-width: 374px) {
+	.navbar .nav-elements {
+	font-size: 1.0em;
+	}
+	footer a {
+	font-size: 8px;
+	}
+
+	footer p {
+	font-size: 8px;
+	}
+	.star:before {
+	top: -51%;
+	}
+}
+
+@media (min-width: 450px) {
+	.navbar .nav-elements {
+	font-size: 1.2em;
+	}
+	footer a {
+	font-size: 10px;
+	}
+
+	footer p {
+	font-size: 10px;
+	}
+	.star:before {
+	top: -52%;
+	}
 }
 
 @media (min-width: 600px) {
