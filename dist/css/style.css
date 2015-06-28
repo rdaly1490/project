@@ -230,11 +230,19 @@ label {
 	border:none;
 }
 
+.about p {
+	font-size: 18px;
+}
+
 #contact-form p{
 	color:red;
 	font-weight: bold;
 	font-size: 12px;
 	margin-top: 5px;
+}
+
+#contact-form {
+	text-align: left;
 }
 
 #contact-btn:hover {
@@ -329,10 +337,6 @@ label {
 
 	#address p {
 		font-size: 18px;
-	}
-
-	#address h2 {
-		font-size: 36px;
 	}
 
 	#address h3{
