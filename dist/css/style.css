@@ -11,8 +11,10 @@
 }
 
 .navbar .nav-elements {
+	padding:0px;
+	text-align: center;
 	height:2.5em;
-	font-size: 0.9em;
+	font-size: 0.65em;
 	line-height: 2.0em;
 	vertical-align: middle;
 	opacity:1;
@@ -168,23 +170,37 @@ padding-top: 380px;
 	  background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
 }
 
-footer a {
+#refs {
+	font-size: 10px;
+	margin-top:-2%;
+	margin-bottom: 2em;
+}
+
+#photo {
+	margin-top: -5%;
+}
+
+#refs p{
+	margin-bottom:0;
+}
+
+.foot a {
 	color:#d92727;
 	float: right;
-	line-height: 8em;
+	line-height: 5em;
 	vertical-align: middle;
 	font-size: 6px;
 }
 
-footer a:hover {
+.foot a:hover {
 	text-decoration: none;
 	color:#d92727;
 	font-weight: bold;
 }
 
-footer p {
+.foot p {
 	float: left;
-	line-height: 8em;
+	line-height: 5em;
 	vertical-align: middle;
 	font-size: 6px;
 }
@@ -221,10 +237,6 @@ label {
 	display:block;
 }
 
-.move-form {
-	margin-top:-160px;
-}
-
 #contact-btn {
 	border-radius: 5px;
 	margin-top: 20px;
@@ -235,14 +247,32 @@ label {
 }
 
 #contact-form p{
-	color:red;
-	font-weight: bold;
+	color:black;
+	font-size: 10px;
+	margin-top: 5px;
+}
+
+#contact-form h2{
+	color:black;
+	text-align: center;
+	text-decoration: underline;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#contact-form h3{
+	color:black;
 	font-size: 12px;
 	margin-top: 5px;
 }
 
-#contact-form {
-	text-align: left;
+#about-text {
+	border-left:1px solid black;
+}
+
+#refs a:hover {
+	text-decoration: none;
+	font-weight: bold;
 }
 
 #contact-btn:hover {
@@ -281,78 +311,65 @@ label {
 	font-weight:bold;
 }
 
-.about p{
-	font-size: 10px;
-}
-
-.about h2 {
-	font-size: 16px;
-}
-
-#contact-page h2 {
-	font-size: 16px;
-}
-
-#contact-page h3 {
-	font-size: 14px;
-}
-
-@media (min-width: 296px) {
-	.move-form {
-		margin-top: -120px;
-	}
-}
-
 @media (min-width: 374px) {
 	.navbar .nav-elements {
-	font-size: 1.0em;
+	font-size: 0.8em;
 	}
-	footer a {
+	.foot a {
 	font-size: 8px;
 	}
 
-	footer p {
+	.foot p {
 	font-size: 8px;
 	}
 	.star:before {
 	top: -51%;
 	}
-	.move-form {
-		margin-top: -155px;
+	#contact-form p{
+	font-size: 11px;
 	}
-	.about p{
-		font-size: 12px;
+	#nav-clicks {
+	font-size: 0.85em;
+	margin-left: -10%;
 	}
 }
 
 @media (min-width: 450px) {
 	.navbar .nav-elements {
-	font-size: 1.2em;
+	font-size: 0.9em;
 	}
-	footer a {
+	.foot a {
 	font-size: 10px;
 	}
 
-	footer p {
+	.foot p {
 	font-size: 10px;
 	}
 	.star:before {
 	top: -52%;
 	}
-	.move-form {
-		margin-top: -167px;
+	#contact-form p{
+	font-size: 14px;
 	}
-	.about p{
-		font-size: 14px;
+
+	#contact-form h2{
+	font-size: 16px;
+	}
+
+	#contact-form h3{
+	font-size: 15px;
+	}
+	#nav-clicks {
+	font-size: 0.92em;
 	}
 }
 
 @media (min-width: 600px) {
-	footer a {
+	.foot a {
 	font-size: 14px;
 	}
 
-	footer p {
+	.foot p {
 	font-size: 14px;
 	}
 
@@ -373,25 +390,29 @@ label {
 		font-size: 18px;
 	}
 
+	#address h2 {
+		font-size: 36px;
+	}
+
 	#address h3{
 		font-size: 26px;
 	}
-	.move-form {
-		margin-top: -155px;
+	#contact-form p{
+	font-size: 15px;
 	}
-	.about h2 {
-	font-size: 18px;
+
+	#contact-form h2{
+	font-size: 19px;
 	}
-	#contact-page h2 {
-		font-size: 18px;
+
+	#contact-form h3{
+	font-size: 17px;
 	}
-	#contact-page h3 {
-		font-size: 16px;
+	#nav-clicks {
+	font-size: 1.25em;
 	}
-}
-@media (min-width: 633px) {
-	.move-form {
-		margin-top: -120px;
+	#refs {
+	font-size: 14px;
 	}
 }
 
@@ -425,11 +446,11 @@ label {
 	font-size: 1.2em;
 	}
 
-	footer a {
+	.foot a {
 	font-size: 18px;
 	}
 
-	footer p {
+	.foot p {
 	font-size: 18px;
 	}
 
@@ -440,28 +461,22 @@ label {
 	.gloves p {
 		font-size: 18px;
 	}
-	.move-form {
-		margin-top: -170px;
+	#about-text p{
+	font-size: 18px;
 	}
-	.about h2 {
+
+	#contact-form h2{
 	font-size: 20px;
 	}
-	#contact-page h2 {
-		font-size: 20px;
+
+	#contact-form h3{
+	font-size: 18px;
 	}
-	#contact-page h3 {
-		font-size: 18px;
-	}
-	.about p{
-		font-size: 18px;
+	#refs {
+	font-size: 16px;
 	}
 }
 
-@media (min-width: 919px) {
-	.move-form {
-		margin-top: -140px;
-	}
-}
 
 @media (min-width: 992px) {
 	.benefits .well {
@@ -496,7 +511,29 @@ label {
 	#message-id {
 		margin-left: 20px;
 	}
+	#about-text p{
+	font-size: 22px;
+	}
+
+	#contact-form h2{
+	font-size: 24px;
+	}
+
+	#contact-form h3{
+	font-size: 22px;
+	}
+	#nav-clicks {
+	margin-left: 0px;
+	}
 }
+@media (min-width: 1000px) {
+	.benefits .well {
+		min-height:200px;
+		height:320px;
+	}
+
+}
+
 @media (min-width: 1000px) {
 	.benefits .well {
 		min-height:200px;
